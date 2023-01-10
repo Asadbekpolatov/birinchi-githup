@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 95vh;
+    background-color: blue;
+}
+
+.qor {
+    display: flex;
+    width: 100%;
+    /* border: 2px solid black; */
+    justify-content: space-evenly;
+
+}
+
+.box {
+    /* border: 2px solid black; */
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    left: 40%;
+    bottom: 0;
+}
+
+
+
+.box .inbox:nth-child(1) {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid white;
+    margin: auto;
+    border-radius: 50%;
+
+
+}
+
+.box .inbox:nth-child(2) {
+    width: 150px;
+    height: 150px;
+    border: 1px solid white;
+    margin: auto;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+
+}
+
+
+.box .inbox:nth-child(3) {
+    width: 200px;
+    height: 190px;
+    border: 1px solid white;
+    margin: auto;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+
+}
+
+.vrap {
+    position: absolute;
+    width: 130px;
+    height: 20px;
+    top: 0;
+    z-index: 5;
+    border: 1px solid white;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    left: 6%;
+    top: 24%;
+    transform: rotate(45deg);
+}
+
+.vrap2 {
+    position: absolute;
+    width: 130px;
+    height: 20px;
+    top: 0;
+    z-index: 5;
+    border: 1px solid white;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    left: 150px;
+    top: 25%;
+    transform: rotate(-230deg);
+}
+
+.vrap3 {
+    /* border: 2px solid black; */
+    width: 70px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 70px;
+    margin-top: -15px;
+
+}
+
+.vrap4 {
+    /* border: 2px solid black; */
+    width: 70px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 160px;
+    margin-top: -30px;
+
+}
+
+.vrap5 {
+    /* border: 2px solid black; */
+    width: 130px;
+    height: 130px;
+    border-bottom-right-radius: 100%;
+    margin-top: -470px;
+    margin-left: -400px;
+    transform: rotate(45deg);
+    background-color: green;
+}
+
+.vrap6 {
+    /* border: 2px solid black; */
+    width: 180px;
+    height: 180px;
+    border-bottom-right-radius: 100%;
+    transform: rotate(45deg);
+    margin-left: -425px;
+    background-color: green;
+}
+
+.vrap7 {
+    /* border: 2px solid black; */
+    width: 220px;
+    height: 220px;
+    border-bottom-right-radius: 100%;
+    margin-left: -447px;
+    transform: rotate(45deg);
+    background-color: green;
+
+}
+
+.vrap8 {
+    /* border: 2px solid black; */
+    width: 20px;
+    height: 60px;
+    margin-top: -50px;
+    margin-left: -115%;
+    background-color: sienna;
+
+
+
+
+}
+
+.one {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+    left: 48%;
+    bottom: 53%;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.one2 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+    left: 48%;
+    bottom: 42%;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.one3 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+    left: 48%;
+    bottom: 32%;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.one4 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+    left: 145px;
+    bottom: 65%;
+    border-radius: 50%;
+    background-color: black;
+
+
+}
+
+.one5 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+    left: 48%;
+    bottom: 76%;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.one6 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 2px solid black;
+    left: 43%;
+    bottom: 95%;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+.one7 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 2px solid black;
+    left: 54%;
+    bottom: 95%;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+.one8 {
+    position: absolute;
+    width: 30px;
+    height: 10px;
+    border: 2px solid black;
+    left: 45%;
+    bottom: 88%;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.one9 {
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    border: 2px solid black;
+    left: 48%;
+    bottom: 91%;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.one10 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    left: 37%;
+    bottom: 98%;
+    border-radius: 30%;
+    background-color: black;
+    border-bottom: 80px;
+    z-index: 5;
+}
+
+img {
+    width: 26px;
+    animation: imgs 1s infinite ease-in;
+}
+
+img:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+img:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+img:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+img:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+img:nth-child(5) {
+    animation-delay: 0.9s;
+}
+
+img:nth-child(6) {
+    animation-delay: 1.3s;
+}
+
+img:nth-child(7) {
+    animation-delay: 0.5s;
+}
+
+img:nth-child(8) {
+    animation-delay: 0.2s;
+}
+
+img:nth-child(9) {
+    animation-delay: 0.7s;
+}
+
+img:nth-child(10) {
+    animation-delay: 0.02s;
+}
+
+img:nth-child(11) {
+    animation-delay: 0.4s;
+}
+
+img:nth-child(12) {
+    animation-delay: 0.1s;
+}
+
+img:nth-child(13) {
+    animation-delay: 0.9s;
+}
+
+img:nth-child(14) {
+    animation-delay: 0.7s;
+}
+
+img:nth-child(15) {
+    animation-delay: 0.1s;
+}
+
+img:nth-child(16) {
+    animation-delay: 0.9s;
+}
+
+img:nth-child(17) {
+    animation-delay: 0.2s;
+}
+
+img:nth-child(18) {
+    animation-delay: 0.8s;
+}
+
+img:nth-child(19) {
+    animation-delay: 0.3s;
+}
+
+img:nth-child(20) {
+    animation-delay: 0.7s;
+}
+
+img:nth-child(21) {
+    animation-delay: 0.3s;
+}
+
+img:nth-child(22) {
+    animation-delay: 0.9s;
+}
+
+img:nth-child(23) {
+    animation-delay: 0.1s;
+}
+
+img:nth-child(24) {
+    animation-delay: 0.5s;
+}
+
+img:nth-child(25) {
+    animation-delay: 0.8s;
+}
+
+img:nth-child(26) {
+    animation-delay: 0.2s;
+}
+
+img:nth-child(27) {
+    animation-delay: 0.4s;
+}
+
+
+
+@keyframes imgs {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(600px);
+    }
+}
